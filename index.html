@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Literary Insights</title>
+    <meta name="description" content="Discover the world of literature with Literary Insights. Access hundreds of book summaries and embark on a journey of lifelong learning.">
+    <title>Literary Insights: A Portal to Wisdom</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional styling can go here for more customization */
+        .hero-section {
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: #ffffff;
+        }
+    </style>
 </head>
-<body class="bg-gray-50">
 
-    <!-- Header -->
-    <header class="bg-blue-900 text-white">
-        <div class="max-w-6xl mx-auto px-4 py-6">
-            <h1 class="text-3xl font-bold">Literary Insights</h1>
-            <p>Your App for book summaries</p>
-        </div>
-    </header>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <header class="hero-section text-center py-16">
+      <div class="container mx-auto">
+          <!-- Logo Image -->
+          <img src="images/logo.png" alt="Literary Insights Logo" class="w-48 mx-auto mb-4">
+          <h1 class="text-5xl font-bold mb-4">Literary Insights: A Portal to Wisdom</h1>
+          <p class="text-xl mb-8">Dive into the essence of literature with book summaries delivered right to your screen.</p>
+          <a href="https://app.literary-insights.com/" class="bg-white text-gray-800 font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider">Get Started</a>
+      </div>
+  </header>
 
-    <!-- Main content -->
-    <main class="my-10 text-center">
-        <div class="max-w-4xl mx-auto px-4">
-            <!-- Image from the user -->
-            <img src="images/app-photo.jpg" alt="Literary Insights App" class="mx-auto" style="width: 100%; max-width: 300px;">
 
-            <!-- Call to Action Button -->
-            <a href="https://app.literary-insights.com/" class="mt-8 inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">
-                Visit Our App
-            </a>
-        </div>
+    <main class="container mx-auto px-4 py-16">
+        <section id="features" class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Why Choose Literary Insights?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature cards can go here -->
+                <div class="feature-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Condensed Knowledge</h3>
+                    <p>Access the key ideas from a vast range of books in short, digestible summaries.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Custom Recommendations</h3>
+                    <p>Discover book summaries that align with your interests with our smart recommendation engine.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Community Engagement</h3>
+                    <p>Join discussions, share thoughts, and participate in live events with a community of thinkers.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="get-started" class="text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Start Your Free Trial</h2>
+            <p class="mb-8">Embark on a journey of discovery and personal growth with Literary Insights.</p>
+            <a href="https://app.literary-insights.com/"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Join Now</button></a>
+        </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-blue-900 text-white">
-        <div class="max-w-6xl mx-auto px-4 py-6">
+    <footer class="hero-section">
+        <div class="container mx-auto px-4 py-8 text-center">
             <p>&copy; 2024 Literary Insights. All rights reserved.</p>
-            <!-- Add footer links or social media icons here -->
         </div>
     </footer>
-
 </body>
+
 </html>
